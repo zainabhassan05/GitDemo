@@ -1,0 +1,11 @@
+name: Test User
+age: 36
+address:
+  address1: 123 Main Street
+  address2: Suite #4A
+  city: Briarwood
+  state: NY
+  zip: 12345
+roles:
+  - User
+  - Editor

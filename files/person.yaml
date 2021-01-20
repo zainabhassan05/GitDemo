@@ -1,0 +1,31 @@
+person:
+  firstname: "Syed"
+  lastname: 'Hassan'
+  age: 30
+  rating: !!str 9    # treated as "9"
+  marks: !!float 8   # treated as 8.0
+  brithday: 2000-01-31 07:00:00
+  male: true
+  favNum: 1e+2     # 100
+  hobbies:
+    - trekking
+    - swimming
+    - running
+  movies: ["Endgame","3 Idiots","Barney"]
+  friends:
+    - {name: "Charli", age: 34}
+    - name: "Alpha"
+      age: 33
+    - 
+      name: "Bravo"
+      age: 35
+  summary: >
+      till now I have cmpleted 5 half marathos
+      wish to complete full maratho someday
+      next is New York marathon...
+      above text will be treated as single line because of arrow
+  signature: |
+      Syed Hassan
+      Engineer helping others
+      email - ziahassan@hotmail.com
+      note: preserve signature as is (because of |)
